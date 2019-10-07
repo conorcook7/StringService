@@ -167,6 +167,14 @@ Here it the text formatted version returned body.
 	 
 As you can see, the list of strings that was passed in originally was returned in a alphanumerically sorted fashion.  
 
+## Current Issues  
+
+This current version of this product does not have any specific error-handling if given a bad request to the server. For instance, you cannot pass anything in the body of the GET/POST request other than a JSON Array. 
+If you pass a JSON object, you will get a Error:400 Bad Request Response.  
+
+I will be adding exception-handling functionality next when I have more time. My plan is to implement this using the ControllerAdvice & ExceptionHandler tags that are used within Spring Boot then to either catch commonly 
+thrown errors or to create my own exception classes and throw those when passed bad data. 
+
 ## Built With 
 
 * [Spring Boot](https://spring.io/projects/spring-boot/) - The Java framework used
@@ -185,5 +193,3 @@ As you can see, the list of strings that was passed in originally was returned i
 ## Author
 
 * **Conor Cook** 
-
-## Acknowledgments
