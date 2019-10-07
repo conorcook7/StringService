@@ -111,7 +111,10 @@ If you are developing using the command line and not using an IDE, you can run t
 
 ### Sample Input  
 
-This image is the Postman body input for the GET/POST request to the REST server.  
+1.  This image is the Postman header for setting the Key/Value to Content-Type & application/json.  
+<img src="src/img/postman-header.png" width="80%">  
+
+2.  This image is the Postman body input for the GET/POST request to the REST server.  
 <img src="src/img/postman-body.png" width="80%">  
 Here is the text formatted version of the input.  
 	
