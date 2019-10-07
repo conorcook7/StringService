@@ -30,8 +30,9 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 1.  In Package Explorer
 	* Right Click on "StringService"
 	* Hover over "Maven"
-	* Click "Update Project..."
-	![](src/img/eclipse-maven-update.png)
+	* Click "Update Project..."  
+	![](src/img/eclipse-maven-update.png)  
+	<img src="src/img/eclipse-maven-update.png" width="80">
 2.  Press the "Run" button while selecting the following class --> "StringServiceApplication"
 3.  Check the console to make sure you see the Spring Application Output
 4.  Open up Postman (if you don't have Postman, open up tool to target API)
