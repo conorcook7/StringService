@@ -107,6 +107,57 @@ If you are developing using the command line and not using an IDE, you can run t
 
 
 
+## Testing & Output 
+
+### Sample Input
+	This image is the Postman body input for the GET/POST request to the REST server.  
+	<img src="src/img/postman-body.png" width="80%">  
+	Here is the text formatted version of the input.  
+	```
+	[
+		"a1",
+		"hello",
+		"aaa1",
+		"a11",
+		"a2",
+		"a22",
+		"a3",
+		"ab3",
+		"b2",
+		"ab",
+		"a",
+		"za2",
+		"asdff",
+		"cheese",
+		"1123"
+		,"zzzShould be last"
+	]
+	
+	
+### Output
+	This image is the Postman response from the GET/POST request with the previous sample input.  
+	<img src="src/img/postman-result.png" width="80%">  
+	Here it the text formatted version output.  
+	```
+	[
+	    "1123",
+	    "a",
+	    "a1",
+	    "a11",
+	    "a2",
+	    "a22",
+	    "a3",
+	    "aaa1",
+	    "ab",
+	    "ab3",
+	    "asdff",
+	    "b2",
+	    "cheese",
+	    "hello",
+	    "za2",
+	    "zzzShould be last"
+	 ]
+
 ## Built With 
 
 * [Spring Boot](https://spring.io/projects/spring-boot/) - The Java framework used
