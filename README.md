@@ -8,20 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### My System
 
-Device: 2019 Macbook Pro
-OS: macOS Mojave 10.14.6
-Using [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) SE Development Kit 13
-IDE: Eclipse - Version: 2019-09 R (4.13.0)
-Spring Boot - Version 2.1.8 w/ Maven2
+Device: 2019 Macbook Pro  
+OS: macOS Mojave 10.14.6  
+Using [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) SE Development Kit 13  
+IDE: Eclipse - Version: 2019-09 R (4.13.0)  
+Spring Boot - Version 2.1.8 w/ Maven2  
 
-Other applications:
-Postman - Version 7.8.0 (7.8.0)
+Other applications:  
+Postman - Version 7.8.0 (7.8.0)  
 
 ### Prerequisites
 
-1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. You can check you java version with this command `java -version`. (I am running version 13)
-2.  (Recommended - Optional) IDE for java applications (Eclipse, IntelliJ, etc)
-3.  Install [Postman](https://www.getpostman.com/) to test API endpoints
+1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. You can check you java version with this command `java -version`. (I am running version 13)  
+2.  (Recommended - Optional) IDE for java applications (Eclipse, IntelliJ, etc)  
+3.  Install [Postman](https://www.getpostman.com/) to test API endpoints  
 
 
 ### Installing
