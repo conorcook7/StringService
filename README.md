@@ -63,7 +63,7 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
     
 	```
 6.  After calls are prepared with the previous requirements in Postman, send the call.
-7.  Finished. You will be returned the sorted list.
+7.  Finished. You will be returned the sorted list in the body of the response.
 
 ### *For Command line users*
 
