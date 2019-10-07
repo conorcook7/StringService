@@ -48,9 +48,7 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 	* Header requires --> Key = Content type, Value = application/json
 	* Body requires --> JSON Array of Strings ONLY
 	* Example Array below
-	* ```
-	[
-    "1123",
+	* ```"[1123",
     "a",
     "a1",
     "a11",
@@ -65,8 +63,8 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
     "cheese",
     "hello",
     "za2",
-    "zzzShould be last"
-	]
+    "zzzShould be last"]
+    
 	```
 5.  After calls are prepared with the previous requirements in Postman, send the call.
 6.  Finished. You will be returned the sorted list.
