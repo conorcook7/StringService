@@ -1,6 +1,7 @@
 # String Service
 
 This is an implementation of a REST server using Spring Boot that implements an interface with the requirement to take in a collection of strings and return that same collection after being sorted alphanumerically (Naturally sorted).  
+
 All you need to do is pass in a JSON array of strings that you would like to be sorted, then this REST server will send back your alphanumerically sorted array!  
 
 ## Getting Started
