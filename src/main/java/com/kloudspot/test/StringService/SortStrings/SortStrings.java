@@ -73,9 +73,6 @@ public class SortStrings implements StringService{
 			        return str1.compareToIgnoreCase(str2);
 			    }
 			});
-		 // For testing
-//		 System.out.println("After sort method");
-//		 System.out.println(values);
 		 
 		return sortedList;
 	}
