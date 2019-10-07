@@ -50,7 +50,7 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 	* Example Array below
 	```
 	[
-		"1123",
+	    "1123",
 	    "a",
 	    "a1",
 	    "a11",
