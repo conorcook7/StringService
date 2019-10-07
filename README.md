@@ -101,15 +101,15 @@ If you are developing using the command line and not using an IDE, you can run t
 	 ]
     
 5.  After calls are prepared with the previous requirements in Postman, send the call.
-6.  Finished. You will be returned the sorted list.
-7.  This image shows a successful run of the application  
+6.  Finished. You will be returned the sorted list in the body of the response.
+7.  This image shows a successful run of the application server-side 
 	<img src="src/img/cmd-line-success.png" width="80%">
 
 
 
 ## Testing & Output 
 
-### Sample Input  
+### Sample Input - Requested List to be Sorted 
 
 1.  This image is the Postman header for setting the Key/Value to Content-Type & application/json.  
 <img src="src/img/postman-header.png" width="80%">  
@@ -139,7 +139,7 @@ Here is the text formatted version of the GET/POST body.
 	]
 	
 	
-### Output  
+### Output - Response with Sorted List
 
 This image is the Postman response from the GET/POST request with the previous sample input.  
 <img src="src/img/postman-result.png" width="80%">  
