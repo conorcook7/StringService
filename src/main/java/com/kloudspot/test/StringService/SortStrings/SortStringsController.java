@@ -30,6 +30,7 @@ public class SortStringsController {
 	 * 
 	 * @param input (JSON Array of Strings in Body of request)
 	 * @return sortedList (Returned as JSON Array of Strings in the body)
+	 * @throws Exception 
 	 */
 	@RequestMapping(method= {RequestMethod.POST, RequestMethod.GET }, value="/sort")
 	public List<String> sortCollection(@RequestBody Collection<String> input) {

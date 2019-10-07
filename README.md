@@ -169,11 +169,10 @@ As you can see, the list of strings that was passed in originally was returned i
 
 ## Current Issues  
 
-This current version of this product does not have any specific error-handling if given a bad request to the server. For instance, you cannot pass anything in the body of the GET/POST request other than a JSON Array. 
-If you pass a JSON object, you will get a Error:400 Bad Request Response.  
+This current version of this product has very rudimentary error-handling that catches a 404 - Bad Request. The intent of this handler is to catch if you give bad data in the request so you aren't given a nasty looking error.
+In the current state the message returned will tell you the correct format and guidelines for the request. 
 
-I will be adding exception-handling functionality next when I have more time. My plan is to implement this using the ControllerAdvice & ExceptionHandler tags that are used within Spring Boot then to either catch commonly 
-thrown errors or to create my own exception classes and throw those when passed bad data. 
+I will be adding more in-depth exception-handling functionality next when I have more time, rather than just a bad request error.
 
 ## Built With 
 
