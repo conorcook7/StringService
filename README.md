@@ -12,6 +12,7 @@ make the necessary adjustments for environment requirements as well as command l
 1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. Check your java version with this command `java -version`. (I am running version 13) Install the JDK in that link if you do not have the JDK already installed. 
 2.  (Recommended - Optional) IDE for java applications (Eclipse, IntelliJ, etc)  
 3.  Install [Postman](https://www.getpostman.com/) to test API endpoints  
+4.  Make sure you have no other applications running over port 8080 or you will get an error that this application cannot listen over that port.
 
 
 ### Installing
