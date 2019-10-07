@@ -36,8 +36,8 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 3.  Check the console to make sure you see the Spring Application Output  
 	<img src="src/img/eclipse-success.png" width="70%">
 4.  Open up Postman (if you don't have Postman, open up tool to target API)
-5.  Create call to the url `localhost:8080/sort`
-	* This application only takes GET & POST calls
+5.  Create a new GET or POST request to the url `localhost:8080/sort`
+	* This application only takes GET & POST calls so please use these only  
 	* Header requires --> Key = Content type, Value = application/json
 	* Body requires --> JSON Array of Strings ONLY
 	* Example Array below
@@ -75,8 +75,8 @@ If you are developing using the command line and not using an IDE, you can run t
 ./mvnw spring-boot:run
 ```
 3.  Open up Postman (if you don't have Postman, open up tool to target API)
-4.  Create call to the url `localhost:8080/sort`
-	* This application only takes GET & POST calls
+4.  Create a new GET or POST request to the url `localhost:8080/sort`
+	* This application only takes GET & POST calls so please use these only 
 	* Header requires --> Key = Content type, Value = application/json
 	* Body requires --> JSON Array of Strings ONLY
 	* Example Array below
