@@ -4,11 +4,12 @@ This is an implementation of a REST server using Spring Boot that implements an 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. The setup process and commands can be done in Mac or Linux environments. If you are on Windows, please 
+make the necessary adjustments for environment requirements as well as command line calls. 
 
 ### Prerequisites
 
-1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. Check your java version with this command `java -version`. (I am running version 13)  
+1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. Check your java version with this command `java -version`. (I am running version 13) Install the JDK in that link if you do not have the JDK already installed. 
 2.  (Recommended - Optional) IDE for java applications (Eclipse, IntelliJ, etc)  
 3.  Install [Postman](https://www.getpostman.com/) to test API endpoints  
 
