@@ -6,17 +6,6 @@ This is an implementation of a REST server using Spring Boot that implements an 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-### My System
-
-Device: 2019 Macbook Pro  
-OS: macOS Mojave 10.14.6  
-Using [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) SE Development Kit 13  
-IDE: Eclipse - Version: 2019-09 R (4.13.0)  
-Spring Boot - Version 2.1.8 w/ Maven2  
-
-Other applications:  
-Postman - Version 7.8.0  
-
 ### Prerequisites
 
 1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. Check your java version with this command `java -version`. (I am running version 13)  
@@ -110,12 +99,20 @@ If you are developing using the command line and not using an IDE, you can run t
 
 
 
-## Built With & Environment
+## Built With 
 
 * [Spring Boot](https://spring.io/projects/spring-boot/) - The Java framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Postman](https://www.getpostman.com/) - Platform that was used for API development.
-* [Eclipse](https://www.eclipse.org/downloads/packages/) - IDE used
+
+## My Environment
+
+* Device: 2019 Macbook Pro  
+* OS: macOS Mojave 10.14.6  
+* [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) SE Development Kit 13  
+* IDE: [Eclipse](https://www.eclipse.org/downloads/packages/) - IDE used - Version: 2019-09 R (4.13.0)  
+* Spring Boot - Version 2.1.8 w/ Maven2  
+* [Postman](https://www.getpostman.com/) - Platform that was used for API development - Version 7.8.0  
+
 
 ## Author
 
