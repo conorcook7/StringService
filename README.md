@@ -27,10 +27,14 @@ These instructions will get you a copy of the project up and running on your loc
 ### *For Eclipse users*
 
 If you are developing using Eclipse as your IDE, you can run the program and test the server with the following commands:
-1.  Press the "Run" button while selecting the following class --> "StringServiceApplication"
-2.  Check the console to make sure you see the Spring Application Output
-3.  Open up Postman (if you don't have Postman, open up tool to target API)
-4.  Create call to the url `localhost:8080/sort`
+1.  In Package Explorer
+	* Right Click on "StringService"
+	* Hover over "Maven"
+	* Click "Update Project..."
+2.  Press the "Run" button while selecting the following class --> "StringServiceApplication"
+3.  Check the console to make sure you see the Spring Application Output
+4.  Open up Postman (if you don't have Postman, open up tool to target API)
+5.  Create call to the url `localhost:8080/sort`
 	* This application only takes GET & POST calls
 	* Header requires --> Key = Content type, Value = application/json
 	* Body requires --> JSON Array of Strings ONLY
@@ -56,8 +60,8 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 	 ]
     
 	```
-5.  After calls are prepared with the previous requirements in Postman, send the call.
-6.  Finished. You will be returned the sorted list.
+6.  After calls are prepared with the previous requirements in Postman, send the call.
+7.  Finished. You will be returned the sorted list.
 
 ### *For Command line users*
 
