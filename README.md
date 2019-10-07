@@ -1,10 +1,10 @@
 # String Service
 
-This is application is an implementation of a REST server using Spring Boot that implements an interface with the requirement to take in a collection of strings and return that same collection after being sorted alphanumerically (Naturally sorted). 
+This is an implementation of a REST server using Spring Boot that implements an interface with the requirement to take in a collection of strings and return that same collection after being sorted alphanumerically (Naturally sorted). 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### My System
 
@@ -44,11 +44,11 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 2.  Check the console to make sure you see the Spring Application Output
 3.  Open up Postman (if you don't have Postman, open up tool to target API)
 4.  Create call to the url `localhost:8080/sort`
-	*This application only takes GET & POST calls
-	*Header requires --> Key = Content type, Value = application/json
-	*Body requires --> JSON Array of Strings ONLY
+	* This application only takes GET & POST calls
+	* Header requires --> Key = Content type, Value = application/json
+	* Body requires --> JSON Array of Strings ONLY
 	* Example Array below
-	*```
+	* ```
 	[
     "1123",
     "a",
@@ -82,11 +82,11 @@ If you are developing using the command line and not using an IDE, you can run t
 ```
 3.  Open up Postman (if you don't have Postman, open up tool to target API)
 4.  Create call to the url `localhost:8080/sort`
-	*This application only takes GET & POST calls
-	*Header requires --> Key = Content type, Value = application/json
-	*Body requires --> JSON Array of Strings ONLY
+	* This application only takes GET & POST calls
+	* Header requires --> Key = Content type, Value = application/json
+	* Body requires --> JSON Array of Strings ONLY
 	* Example Array below
-	*```
+	* ```
 	[
     "1123",
     "a",
