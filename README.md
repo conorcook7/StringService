@@ -131,8 +131,8 @@ Here is the text formatted version of the input.
 		"za2",
 		"asdff",
 		"cheese",
-		"1123"
-		,"zzzShould be last"
+		"1123",
+		"zzzShould be last"
 	]
 	
 	
