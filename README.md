@@ -43,7 +43,7 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 5.  Create a new GET or POST request to the url `localhost:8080/sort`
 	* This application only takes GET & POST calls so please use these only  
 	* Header **requires** --> Key = Content type, Value = application/json
-	* Body **requires** --> JSON Array of Strings **ONLY**
+	* Body **requires** --> JSON Array of Strings **ONLY** (list of strings that you would like to be sorted)
 	* Example Array below
 	```
 	[
@@ -82,7 +82,7 @@ If you are developing using the command line and not using an IDE, you can run t
 4.  Create a new GET or POST request to the url `localhost:8080/sort`
 	* This application only takes GET & POST calls so please use these only 
 	* Header **requires** --> Key = Content type, Value = application/json
-	* Body **requires** --> JSON Array of Strings **ONLY**
+	* Body **requires** --> JSON Array of Strings **ONLY** (list of strings that you would like to be sorted)
 	* Example Array below
 	```
 	[
