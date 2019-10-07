@@ -19,7 +19,7 @@ Postman - Version 7.8.0
 
 ### Prerequisites
 
-1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. You can check you java version with this command `java -version`. (I am running version 13)  
+1.  Ensure that you have [Java](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) version 8 or greater. Check your java version with this command `java -version`. (I am running version 13)  
 2.  (Recommended - Optional) IDE for java applications (Eclipse, IntelliJ, etc)  
 3.  Install [Postman](https://www.getpostman.com/) to test API endpoints  
 
