@@ -116,7 +116,7 @@ If you are developing using the command line and not using an IDE, you can run t
 
 2.  This image is the Postman body input for the GET/POST request to the REST server.  
 <img src="src/img/postman-body.png" width="80%">  
-Here is the text formatted version of the input.  
+Here is the text formatted version of the GET/POST body.  
 	
 	
 	[
@@ -143,7 +143,7 @@ Here is the text formatted version of the input.
 
 This image is the Postman response from the GET/POST request with the previous sample input.  
 <img src="src/img/postman-result.png" width="80%">  
-Here it the text formatted version output.  
+Here it the text formatted version returned body.  
 	
 
 	[
