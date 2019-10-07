@@ -25,7 +25,7 @@ make the necessary adjustments for environment requirements as well as command l
 
 ## Running Locally
 
-### *For Eclipse users*
+### *For Eclipse Users*
 
 If you are developing using Eclipse as your IDE, you can run the program and test the server with the following commands:
 1.  In Package Explorer
@@ -66,7 +66,7 @@ If you are developing using Eclipse as your IDE, you can run the program and tes
 6.  After calls are prepared with the previous requirements in Postman, send the call.
 7.  Finished. You will be returned the sorted list in the body of the response.
 
-### *For Command line users*
+### *For Command Line Users*
 
 If you are developing using the command line and not using an IDE, you can run the program and test the server by following these steps:
 1.  Navigate into project directory
