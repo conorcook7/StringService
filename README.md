@@ -15,7 +15,7 @@ IDE: Eclipse - Version: 2019-09 R (4.13.0)
 Spring Boot - Version 2.1.8 w/ Maven2  
 
 Other applications:  
-Postman - Version 7.8.0 (7.8.0)  
+Postman - Version 7.8.0  
 
 ### Prerequisites
 
@@ -29,13 +29,11 @@ Postman - Version 7.8.0 (7.8.0)
 1.  Fork and clone this repo.
 2. `cd` into project directory.
 
-*For Eclipse users*
+*For Eclipse users*  
 3.  Import --> Maven --> Existing Maven Projects --> Browse --> *Go to Directory (StringService)* --> Finish
 
 
 ## Running Locally
-
-Explain how to run the automated tests for this system
 
 ### *For Eclipse users*
 
@@ -122,7 +120,5 @@ If you are developing using the command line and not using an IDE, you can run t
 ## Author
 
 * **Conor Cook** 
-
-## License
 
 ## Acknowledgments
