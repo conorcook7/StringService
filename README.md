@@ -164,6 +164,8 @@ Here it the text formatted version returned body.
 	    "za2",
 	    "zzzShould be last"
 	 ]
+	 
+As you can see, the list of strings that was passed in originally was returned in a alphanumerically sorted fashion.  
 
 ## Built With 
 
